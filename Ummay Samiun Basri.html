@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ummay Samiun Basri</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      background: #1E1F25;
+      color: white;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    .navbar h1 {
+      font-size: 1.5rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: #f8f9fa;
+    }
+
+    .hero img {
+      max-width: 180px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: orange;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: darkorange;
+    }
+
+    section.about, section.skills {
+      padding: 50px 20px;
+    }
+
+    .content {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .content.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .content img {
+      width: 280px;
+      border-radius: 10px;
+    }
+
+    .content div {
+      max-width: 500px;
+    }
+
+    .content h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .content h4 {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #111;
+    }
+
+    .content p, .content li {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #1E1F25;
+      color: white;
+    }
+
+    .socials a {
+      color: orange;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .content.reverse {
+        flex-direction: column;
+      }
+
+      .content img {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+
+      .hero p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>Ummay Samiun Basri</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://pub-bc4bb8002f564e69a1cddb7520ad7592.r2.dev/imgs/mvEwI1C0hciZ0xWN" alt="Hero Image"/>
+      <h2>Hi, I’m Ummay Samiun Basri</h2>
+      <p>A Baby Web Developer & CSE Student at IIUC. Let’s build beautiful things on the web together.</p>
+      <a href="./ummay_samiun_basri_cv.pdf" class="btn">Download Resume</a>
+    </section>
+
+    <section class="about">
+      <div class="content">
+        <img src="https://pub-bc4bb8002f564e69a1cddb7520ad7592.r2.dev/imgs/Gaus2bVCxbGd1dwE" alt="About Me"/>
+        <div>
+          <h3>About Me</h3>
+          <h4>Who I Am</h4>
+          <p>I'm Ummay Samiun Basri, a Baby Web Developer and Computer Science student at IIUC. I love clean code, responsive design, and continuous learning.</p>
+          <h4>Resume</h4>
+          <p>Click the button above to download my resume. I'm open to internships, collaborations, and networking with fellow developers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="content reverse">
+        <img src="https://pub-bc4bb8002f564e69a1cddb7520ad7592.r2.dev/imgs/PnRShtahcBgP3Qkb" alt="Skills"/>
+        <div>
+          <h3>Skills</h3>
+          <ul>
+            <li><strong>HTML & CSS:</strong> Proficient in writing semantic HTML and styling responsive layouts using modern CSS.</li>
+            <li><strong>JavaScript:</strong> Building interactivity and dynamic features with vanilla JS and learning frameworks.</li>
+            <li><strong>Git & GitHub:</strong> Comfortable with version control and collaborating on projects using GitHub.</li>
+            <li><strong>Responsive Design:</strong> Ensuring sites look great on all devices, from mobile to desktop.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ummay Samiun Basri. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/">Facebook</a> |
+      <a href="https://www.instagram.com/">Instagram</a> |
+      <a href="https://www.youtube.com/">YouTube</a>
+    </div>
+  </footer>
+
+  <script>
+    // For future enhancement or debugging
+    console.log("Welcome to Ummay Samiun Basri's portfolio site!");
+  </script>
+</body>
+</html>
